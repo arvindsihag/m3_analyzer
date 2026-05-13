@@ -5,8 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Code Available](https://img.shields.io/badge/Code-Available-brightgreen?style=flat-square)](.)
 
-> The Action-Engagement-Collaboration Triad: A Multimodal Analytical Framework for Human-Robot Collaboration
-> [![Paper Link](https://img.shields.io/badge/HRI-2026-4A90E2?style=flat-square)](https://dl.acm.org/doi/abs/10.1145/3757279.3788807)
+> The Action-Engagement-Collaboration Triad: A Multimodal Analytical Framework for Human-Robot Collaboration 
 > [![Paper Link]](https://dl.acm.org/doi/abs/10.1145/3757279.3788807)
 
 
