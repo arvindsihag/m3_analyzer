@@ -119,7 +119,7 @@ Click the **"Request Access"** button and fill out the form with your:
 │   └── *.mp4                    # RGB video files
 │
 ├── c2_depth_clips/              # Depth streams
-│   └── *.npy                    # Depth data files
+│   └── *.mp4                    # Depth data files
 │
 ├── imu_data/                    # IMU sensor CSV files
 │   ├── left_hand_imu.csv        # Left hand IMU data
@@ -129,12 +129,15 @@ Click the **"Request Access"** button and fill out the form with your:
 │   ├── actions.csv              # Action primitive annotations
 │   └── engagement.csv           # Frame-wise engagement labels
 │
-├── metrics/                     # MICRO / MESO / MACRO Layer outputs
-│   ├── micro_metrics.csv        # MICRO layer analysis results
-│   ├── meso_metrics.csv         # MESO layer analysis results
-│   └── macro_metrics.csv        # MACRO layer analysis results
-│
-└── README.md                    # Dataset documentation
+└──  metrics/                     # MICRO / MESO / MACRO Layer outputs
+    ├── micro_metrics.csv        # MICRO layer analysis results
+    ├── meso_metrics.csv         # MESO layer analysis results
+    └── macro_metrics.csv        # MACRO layer analysis results
+
+.
+.
+.
+── README.md                    # Dataset documentation
 ```
 
 
