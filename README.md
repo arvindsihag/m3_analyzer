@@ -230,17 +230,17 @@ Developed at:
 CSIR-Central Electronics Engineering Research Institute (CEERI), Pilani
 Academy of Scientific and Innovative Research (AcSIR), India
 ```
-### 📖 Citation
-```bash
-📬 Contact
-Arvind Sihag
-📧 arvind.ceeri24a@acsir.res.in
-🔗 GitHub | Hugging Face
-```
-### 📖 Citation
-```bash
-⭐ Star Us!
+
+### 📬 Contact
+
+**Arvind Sihag**  
+📧 [arvind.ceeri24a@acsir.res.in](mailto:arvind.ceeri24a@acsir.res.in)  
+🔗 [GitHub](https://github.com/arvindsihag) | [Hugging Face](https://huggingface.co/ArvindSihag)
+
+**Naval Kishore Mehta**  
+🔗 [GitHub](https://github.com/navalkishoremehta95)
+
+### ⭐ Star Us!
 If you find this work useful, please give us a star ⭐ and cite our paper!
-```
 
 
