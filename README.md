@@ -204,6 +204,15 @@ dataset = load_dataset(
     split="train"
 )
 ```
+
+### Running tests
+
+Lightweight unit tests cover engagement parsing, performance scoring, and temporal segmentation (no GPU / dataset required):
+
+```bash
+python -m unittest tests.test_core_analyzers -v
+```
+
 ### 📖 Citation
 ```bash
 @inproceedings{arvind2026action,
@@ -221,17 +230,17 @@ Developed at:
 CSIR-Central Electronics Engineering Research Institute (CEERI), Pilani
 Academy of Scientific and Innovative Research (AcSIR), India
 ```
-### 📖 Citation
-```bash
-📬 Contact
-Arvind Sihag
-📧 arvind.ceeri24a@acsir.res.in
-🔗 GitHub | Hugging Face
-```
-### 📖 Citation
-```bash
-⭐ Star Us!
+
+### 📬 Contact
+
+**Arvind Sihag**  
+📧 [arvind.ceeri24a@acsir.res.in](mailto:arvind.ceeri24a@acsir.res.in)  
+🔗 [GitHub](https://github.com/arvindsihag) | [Hugging Face](https://huggingface.co/ArvindSihag)
+
+**Naval Kishore Mehta**  
+🔗 [GitHub](https://github.com/navalkishoremehta95)
+
+### ⭐ Star Us!
 If you find this work useful, please give us a star ⭐ and cite our paper!
-```
 
 
