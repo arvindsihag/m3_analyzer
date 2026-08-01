@@ -195,22 +195,39 @@ analyzer.visualize(
 ```
 
 ### Loading from Hugging Face
-```bash
+```python
 from datasets import load_dataset
 
 # Login first: huggingface-cli login
 dataset = load_dataset(
     "ArvindSihag/M3_Multimodal_Human_Robot_Collaboration_Dataset",
-    split="train"
+    split="train"   # keep as-is; this selects the HF dataset split (not related to unit tests)
 )
 ```
 
 ### Running tests
 
-Lightweight unit tests cover engagement parsing, performance scoring, and temporal segmentation (no GPU / dataset required):
+No dataset download or GPU is required. From the repo root:
 
 ```bash
 python -m unittest tests.test_core_analyzers -v
+```
+
+These checks cover engagement text parsing, performance scoring, and temporal segmentation helpers.
+
+### Repository structure (code)
+
+```text
+m3_analyzer/
+├── main_analyzer.py          # main analysis pipeline
+├── llm_analyzer.py           # LLaVA / multimodal analysis
+├── performance_analyzer.py   # performance & safety cues
+├── temporal_segmenter.py     # temporal process segments
+├── behavioral_segmenter.py   # behavioral patterns
+├── text_signal_utils.py      # lightweight text helpers (offline-friendly)
+├── tests/
+│   └── test_core_analyzers.py
+└── README.md
 ```
 
 ### 📖 Citation
