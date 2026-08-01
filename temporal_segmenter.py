@@ -58,7 +58,13 @@ class TemporalSegmenter:
                     result.get('collaboration_score', 0.0)
                 )
                 current_segment.metadata['frame_end'] = result['frame_number']
-        
+
+        # Flush the final open segment (previously dropped at end-of-stream).
+        if current_segment is not None:
+            current_segment.duration = current_segment.end_time - current_segment.start_time
+            if current_segment.duration >= self.min_duration:
+                segments.append(current_segment)
+
         return segments
     
     def _classify_segment_type(self, result: Dict, current_segment: TemporalSegment) -> TemporalSegmentType:

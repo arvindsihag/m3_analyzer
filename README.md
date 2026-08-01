@@ -204,6 +204,15 @@ dataset = load_dataset(
     split="train"
 )
 ```
+
+### Running tests
+
+Lightweight unit tests cover engagement parsing, performance scoring, and temporal segmentation (no GPU / dataset required):
+
+```bash
+python -m unittest tests.test_core_analyzers -v
+```
+
 ### 📖 Citation
 ```bash
 @inproceedings{arvind2026action,
